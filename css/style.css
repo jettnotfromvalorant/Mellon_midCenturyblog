@@ -1,3 +1,72 @@
 /* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
 
 Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+body {
+  background-color: #f2994d;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  text-align: center;
+  word: spacing 10px;
+}
+
+.directory {
+
+  color: #3f959e;
+  font-family: Josefin sans;
+  font-size: 16px;  
+  font-weight:600;
+  
+}
+
+h1 {
+  text-align: center;
+  color: #3a400c;
+  font-family: Josefin sans;
+  font-size: 37px;
+  font-weight: 600;
+}
+
+h3 {
+  text-align: left;
+  color: #3f959e;
+  font-family: Josefin sans;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 22.5px;
+}
+
+p {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.images {
+  width: 300px;
+}
+
+footer {
+  background-color: #04adbf;
+}
+.wrap {
+  font-family: josefin sans;
+  font-weight: 600
+}
+.oakley {
+  font-family: lato;
+  font-size: 15px;
+  font-weight: 400;
+}
